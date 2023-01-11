@@ -17,8 +17,24 @@ z-index: -20;
 background-color: #00000041;
 overflow: hidden;
 }
+h1, h2, p, ul, li, a {
+    color: white;
+    font-family: 'Comfortaa', cursive;
 
-
+}
+.daten{
+    text-align: center;
+margin-left: 8%;
+margin-right: 8%;
+}
+.x-button2{
+    width: 15%;
+}
+.home_bttn{
+position: absolute;
+margin-top: 5px;
+margin-left: 10px;
+}
 
 a{
     text-decoration-line: none;
@@ -702,7 +718,20 @@ position: absolute;
 left: 50%;
 z-index: 100;
 transform: translateX(-50%);
-bottom: -380px;
+bottom: -370px;
+}
+.datenfooter{
+    color: rgba(255, 255, 255, 0.161);
+    font-size: 12px;
+font-family: 'Comfortaa', cursive;
+font-weight: 400;
+left: 50%;
+z-index: 100;
+position: absolute;
+left: 50%;
+z-index: 100;
+transform: translateX(-50%);
+bottom: -386px;
 }
 
 
