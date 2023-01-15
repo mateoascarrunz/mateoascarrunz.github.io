@@ -220,6 +220,7 @@ color: rgb(0, 0, 0);
    padding-top: 50px;
    padding-bottom: 50px;
     grid-auto-rows: 1fr;
+    cursor: move;
 
 }
 
@@ -264,7 +265,7 @@ position: relative;
 }
 .card-1:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    cursor: pointer;
+
 }
 .logo-container{
     height: 180px;
@@ -306,6 +307,7 @@ transform: translateZ(20px);
     position: absolute;
     bottom: 10px;
     right: 20px;
+    cursor: pointer;
 }
 .arrow-text{
     position: absolute;
@@ -518,12 +520,6 @@ margin: auto;
     grid-template-columns: 35% 65%;
     margin: 0px 150px 0px 150px;
     padding-top: 300px;
-}
-.arrow{
-    width: 100px;
-    position: absolute;
-    top: -20px;
-    left: 0px;
 }
 .photo{
     width: 100%;
