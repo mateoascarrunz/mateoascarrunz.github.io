@@ -1144,14 +1144,14 @@ transform: translateX(-50%);
   }
   .swiper-img-v{
     display: block;
-    height: 80%;
+    height: 67%;
     width: auto;
     border-radius: 23px;
 
   }
   .swiper-img-h{
     display: block;
-    max-height: 80%;
+    max-height: 70%;
     max-width: 93%;
     border-radius: 23px !important;
 
