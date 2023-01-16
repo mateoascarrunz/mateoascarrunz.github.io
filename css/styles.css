@@ -1160,6 +1160,7 @@ transform: translateX(-50%);
 .swiper-slide-visible, .swiper-slide-active{
     filter: drop-shadow(0 5rem 5rem rgba(0, 0, 0, 0.443));
     opacity: 1 !important;
+    filter: blur(0px) !important;
 
 
 }
