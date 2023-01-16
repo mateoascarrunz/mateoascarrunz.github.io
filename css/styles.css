@@ -1133,7 +1133,7 @@ overflow: hidden;
 .swipe-text{
 position: absolute;
 left: 50%;
-bottom:3% ;
+bottom:2% ;
 text-shadow: 5px 5px 10px black;
 transform: translateX(-50%);
 }
