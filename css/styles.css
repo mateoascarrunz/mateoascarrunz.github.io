@@ -206,7 +206,7 @@ color: rgb(0, 0, 0);
 .carousel-container1 {
     position: relative;
     margin-top: 20px;
-   
+    overflow-y: hidden;
     
 }
 /* scroller */
@@ -215,6 +215,7 @@ color: rgb(0, 0, 0);
     grid-auto-flow: column;
 
     overflow-x: auto;
+    overflow-y: hidden;
     overscroll-behavior-inline: contain;
     margin-top: 0;
    padding-top: 50px;
